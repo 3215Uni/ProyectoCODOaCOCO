@@ -1,0 +1,125 @@
+/*
+Curso :JAVA-FRONT END.
+Profesor: JOSÉ Gonzalez
+Alumna_:Roxana Benicio
+Comisión: 22021
+*/
+*{
+  margin: 0;
+  padding: 0;
+}
+#hBtn1,#hBtn2,a,p,span,h6,b,#sInputA,#sInputN,#sInputNCANTIDAD, #btnS4,#sPl,#sLabel{
+font-size: 1vw;  
+}
+h5{
+font-size: 2vw;
+}
+h1{
+font-size: 3vw;
+}
+#fboton{
+font-size: 1vw;
+}
+/*HEADER*/
+#nave{
+background-color: rgb(53, 58, 64);
+margin: 0%;
+}
+.hANav:link, .hANav:visited, .hANav:active {
+text-decoration:none;
+}
+#hTextoNav{
+margin-top: 2%;
+margin-right: 13%;
+margin-bottom: 1%; 
+}
+.hLNav{
+margin-top: 2%;
+margin-left: 2%;
+margin-bottom: 1%;
+margin-right: 0%;
+padding-right: 0%;     
+}
+#hI{
+color: aliceblue;
+}
+#hI:hover{
+color: grey;
+}
+.hANav:active{
+color: aliceblue;
+}
+.hANav:hover{
+color: aliceblue;
+}
+.hANav{
+text-decoration:none;
+color: gray;
+}
+/*Color de texto del enlace del nav, cuando el mous pasa por encima*/
+#navComprar:hover{
+color: rgb(116, 212, 124);
+}
+/*Color de texto del enlace <a>, del Nav*/
+#navComprar{
+color: green;
+}
+/*Posicion margenes y ancho de la iamgen del nav*/
+#codo{
+position: relative;
+top: 6px;
+left: 9px;
+margin-top: 0%;
+margin-left: 7%;
+margin-bottom: 0%;
+width: 10%; 
+}
+#parrafo{
+text-align: end; 
+margin: 7%;
+color: aliceblue; 
+}
+/*SECTION*/
+/*3 Cuadrados*/
+#c1,#c2,#c3{
+  text-align: center;
+}
+/*Formulario*/
+/*color del boton del formualrio*/
+#section{
+margin-left: 25%;
+margin-right: 25%;
+}
+
+#botonCalcular, #botonBorrar{
+  background-color: rgb(150, 201, 62);
+  color: aliceblue;
+  text-size-adjust: 1vw;
+}
+
+#botonCalcular:hover, #botonBorrar:hover{
+background-color: rgb(210, 247, 147);
+}
+/*FOOTER*/
+footer div div {
+  margin: 2%;
+}
+.pieDegradado{
+  justify-content: center;
+  align-items:center;
+  display: flex;
+  margin-top: 25px;
+  background-image: linear-gradient(to right, rgb(28, 54, 67),rgb(30, 83, 114));
+}
+/*Color y decoracion de los enlaces <a>, del footer*/
+.footerText{
+color: aliceblue;
+text-decoration:none; 
+}
+/*Parrafo con javaScript*/
+#tienejavaScript{
+background-color: rgb(169, 216, 247);
+color: rgb(3, 59, 143);
+padding: 2%;
+border-radius: 5px;
+}
